@@ -1,0 +1,33 @@
+06-03-2022 18:30:55|Add appointment|[MTLA060222, PHYSICIAN, 10]|Success: Appointment Added|true|
+06-03-2022 18:38:03|Sent UDP request to Shrebrooke server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [|false|
+06-03-2022 18:38:03|Sent UDP request to Quebec server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [|false|
+06-03-2022 18:38:03|Received UDP response from quebec server|[MTLA0000]||false|
+06-03-2022 18:38:03|Received UDP response from Sharebrooke server|[MTLA0000]||false|
+06-03-2022 18:38:03|Get appointment Schedule|[MTLA0000]|Appointment Schedule of MTLA0000 []|false|
+06-03-2022 18:38:15|Sent UDP request to Shrebrooke server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [|false|
+06-03-2022 18:38:15|Sent UDP request to Quebec server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [|false|
+06-03-2022 18:38:15|Received UDP response from Sharebrooke server|[MTLA0000]||false|
+06-03-2022 18:38:15|Received UDP response from quebec server|[MTLA0000]||false|
+06-03-2022 18:38:15|Get appointment Schedule|[MTLA0000]|Appointment Schedule of MTLA0000 []|false|
+06-03-2022 18:38:15|Book appointment|[MTLA0000, MTLA030222, PHYSICIAN]|Success: Appointment successfully booked|false|
+06-03-2022 18:38:23|Sent UDP request to Shrebrooke server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [PHYSICIAN:MTLA030222,|false|
+06-03-2022 18:38:23|Sent UDP request to Quebec server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [PHYSICIAN:MTLA030222,|false|
+06-03-2022 18:38:23|Received UDP response from Sharebrooke server|[MTLA0000]||false|
+06-03-2022 18:38:23|Received UDP response from quebec server|[MTLA0000]||false|
+06-03-2022 18:38:23|Get appointment Schedule|[MTLA0000]|Appointment Schedule of MTLA0000 [PHYSICIAN:MTLA030222,]|false|
+06-03-2022 18:38:35|Sent UDP request to Shrebrooke server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [PHYSICIAN:MTLA030222,|false|
+06-03-2022 18:38:35|Sent UDP request to Quebec server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [PHYSICIAN:MTLA030222,|false|
+06-03-2022 18:38:35|Received UDP response from Sharebrooke server|[MTLA0000]||false|
+06-03-2022 18:38:35|Received UDP response from quebec server|[MTLA0000]||false|
+06-03-2022 18:38:35|Get appointment Schedule|[MTLA0000]|Appointment Schedule of MTLA0000 [PHYSICIAN:MTLA030222,]|false|
+06-03-2022 18:38:35|Book appointment|[MTLA0000, QUEA030222, PHYSICIAN]|Failed: Patient has already booked appointment in same day withPHYSICIAN|false|
+21-03-2022 20:34:59|Sent UDP request to Shrebrooke server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [|false|
+21-03-2022 20:34:59|Sent UDP request to Quebec server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [|false|
+21-03-2022 20:34:59|Received UDP response from Sharebrooke server|[MTLA0000]||false|
+21-03-2022 20:34:59|Received UDP response from quebec server|[MTLA0000]||false|
+21-03-2022 20:34:59|Get appointment Schedule|[MTLA0000]|Appointment Schedule of MTLA0000 []|false|
+21-03-2022 20:35:08|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+21-03-2022 20:35:08|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+21-03-2022 20:35:08|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+21-03-2022 20:35:08|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+21-03-2022 20:35:08|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|

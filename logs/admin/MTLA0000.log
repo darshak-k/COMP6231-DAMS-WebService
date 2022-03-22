@@ -1,0 +1,7 @@
+06-03-2022 18:30:48 | Add appointment | [MTLA060222, PHYSICIAN, 10] | Success: Appointment Added | false
+06-03-2022 18:38:03 | Get Appointment Schedule | [MTLA0000] | Appointment Schedule of MTLA0000 [] | false
+06-03-2022 18:38:07 | Book appointment by MTLA0000 | [MTLA0000, MTLA030222, PHYSICIAN] | Success: Appointment successfully booked | true
+06-03-2022 18:38:23 | Get Appointment Schedule | [MTLA0000] | Appointment Schedule of MTLA0000 [PHYSICIAN:MTLA030222,] | false
+06-03-2022 18:38:27 | Book appointment by MTLA0000 | [MTLA0000, QUEA030222, PHYSICIAN] | Failed: Patient has already booked appointment in same day withPHYSICIAN | false
+21-03-2022 20:34:59 | Get Appointment Schedule | [MTLA0000] | Appointment Schedule of MTLA0000 [] | false
+21-03-2022 20:35:06 | List appointment | [PHYSICIAN] | List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,] | false
